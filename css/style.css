@@ -122,7 +122,7 @@ a.icon {
 }
 
 .nav-list li.active {
-  background-color: rgb(249, 71, 6);
+  background-color:var(--primary-color);
 }
 
 .nav-list .list-item.active a {
@@ -203,7 +203,7 @@ a.icon {
     font-size: 1rem;
   }
   .nav-list li.active {
-    background-color: rgb(249, 71, 6);
+    background-color: var(--primary-color);
     color: #fff;
   }
   a.icon {
@@ -321,7 +321,7 @@ a.icon {
 }
 
 .hero-section .hero-body .social-media .social-list i:hover {
-  color: var(--secondary-color);
+  color: var(--accent-color-dark);
   scale: 1.2;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   transform: translateY(-2px);
@@ -508,7 +508,7 @@ a.icon {
   }
 
   #projects-section .section-body {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
   }
 }
 
@@ -661,7 +661,7 @@ transform: scale(1.03);
 justify-content: space-between;
 }
 .card-front img {
-  width: 60%;
+  width: 100%;
   height: auto;
   margin-bottom: 10px;
   border-radius: 10px;
