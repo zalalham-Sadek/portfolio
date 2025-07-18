@@ -395,12 +395,17 @@ a.icon {
     margin-top: 20px !important;
     position: static;
   }
+  #about-me .container {
+    width: 100%;
+    padding: 20px 20px 0px;
+    position: relative;
+  }
 }
 
 .card {
   position: sticky;
   top: 20%;
-  width: 80%;
+  width: 100%;
   height: fit-content;
   margin: 0 auto;
   padding: 20px;
@@ -425,8 +430,8 @@ a.icon {
   background-color: rgb(255, 255, 255);
   /* white with slight transparency */
   border-radius: 16px;
-  padding: 25px 30px;
-  margin: 10px;
+  padding: 18px 13px;
+  /* margin: 10px; */
   /* space to show the card glass border */
   /* box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.35), 
               0 4px 15px rgba(0, 0, 0, 0.1);       */
@@ -705,7 +710,39 @@ body:has(#mode-toggle:checked) .card-back {
 
 
 
+@media (min-width:400px) and (max-width: 500px) {
+  .project-card {
+   
+    
+    height: 360px;
+  } 
 
+  @media screen and (max-width: 767px) {
+    .about-me .container {
+         width: 100%;
+    /* margin: 0 auto; */
+    /* padding: 20px 20px 0px; */
+    position: relative;
+    }
+    
+  }
+
+
+
+  /* .project-card .card-front {
+    height: 0;
+  } */
+
+
+  
+}
+@media screen and (max-width: 399px) {
+  .project-card {
+    height: 300px;
+  }
+
+  
+}
 
 
 
